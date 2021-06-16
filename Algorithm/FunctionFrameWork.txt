@@ -1,0 +1,17 @@
+User = [Id ,Prefrences(Most-Least), Success Value, Groups Apart Of ID]
+groupAssignment.js
+	GrabUserData(Group Id)
+		returns [[User Prefrences]]
+	GroupAssigner([[User Prefrences]])
+		returns [Groups]
+	SuccessCalculator([Groups],[[User Prefrences]])
+		returns [[Updated User Prefrences]]
+	UserDataUpdator ([[Updated User Prefrences]],[Groups])
+		returns true/false
+dataBaseManager.js
+		
+
+
+
+
+

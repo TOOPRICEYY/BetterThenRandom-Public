@@ -1,0 +1,9 @@
+Loading/Generating Animation When Calculating what Options Next
+Final Page Submit Animation
+Progress Bar 
+Make A special Case for 3 and less options
+Need to at question in selection area so people remeber what choosing for
+Text Wrap for Boxes/Descriptions
+Text Overflow
+Choice Descriptions
+Loading Screen for all transitions
