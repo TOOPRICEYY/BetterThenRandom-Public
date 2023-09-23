@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINA ROCKS!</title>
+    <style>
+        #slideshow {
+            max-width: 500px; /* or whatever maximum width you want */
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="slideshow">
+        <img id="slideImage" src="./pics/img_0.jpg" alt="Slide Image">
+    </div>
+
+    <script>
+        let imageIndex = 1;
+        const totalImages = 13; // Assuming you have 3 images
+        const slideshowElement = document.getElementById('slideImage');
+
+        setInterval(() => {
+            imageIndex = (imageIndex % totalImages) ;
+            slideshowElement.src = `./pics/img_${imageIndex}.jpg`;
+        }, 3000); // Change every 3 seconds
+    </script>
+</body>
+</html>
